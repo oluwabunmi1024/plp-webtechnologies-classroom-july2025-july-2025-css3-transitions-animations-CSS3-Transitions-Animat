@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Web Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>My Interactive Web Page</h1>
+
+  <!-- ===== FORM SECTION ===== -->
+  <section>
+    <h2>Registration Form</h2>
+    <form id="myForm">
+      <label for="username">Username:</label>
+      <input type="text" id="username" placeholder="Enter username"><br><br>
+
+      <label for="email">Email:</label>
+      <input type="text" id="email" placeholder="Enter email"><br><br>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" placeholder="Enter password"><br><br>
+
+      <button type="submit">Submit</button>
+    </form>
+    <p id="formMessage"></p>
+  </section>
+
+  <!-- ===== INTERACTIVE SECTION 1 ===== -->
+  <section>
+    <h2>Toggle Password Visibility</h2>
+    <input type="password" id="togglePass" placeholder="Enter secret">
+    <button id="toggleBtn">Show/Hide</button>
+  </section>
+
+  <!-- ===== INTERACTIVE SECTION 2 ===== -->
+  <section>
+    <h2>Counter Button</h2>
+    <button id="counterBtn">Click Me</button>
+    <p id="counterDisplay">You have clicked 0 times.</p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
